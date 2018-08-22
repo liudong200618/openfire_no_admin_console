@@ -1,0 +1,612 @@
+2018-08-21 22:03:06,328 [main] INFO  [org.jivesoftware.openfire.starter.ServerStarter] - ./openfireHome
+2018-08-21 22:03:06,363 [main] WARN  [org.jivesoftware.util.Log] - Admin Lib Directory ./openfireHome/plugins/admin/webapp/WEB-INF/lib does not exist. Web admin console may not work.
+2018-08-21 22:03:08,332 [main] INFO  [org.jivesoftware.openfire.XMPPServer] - Registering shutdown hook (standalone mode)
+2018-08-21 22:03:08,814 [main] INFO  [org.logicalcobwebs.proxool.ProxoolFacade] - Proxool 0.9.0RC3+ (February 6 2008)
+2018-08-21 22:03:08,818 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Recognised proxool property: proxool.driver=com.mysql.jdbc.Driver
+2018-08-21 22:03:08,818 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Recognised proxool property: proxool.url=jdbc:mysql://127.0.0.1:3306/openfire413?rewriteBatchedStatements=true
+2018-08-21 22:03:08,818 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Recognised proxool property: proxool.minimum-connection-count=5
+2018-08-21 22:03:08,819 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Recognised proxool property: proxool.maximum-active-time=900000
+2018-08-21 22:03:08,819 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Delegating property to driver: user=ljd
+2018-08-21 22:03:08,819 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Recognised proxool property: proxool.maximum-connection-lifetime=86400000
+2018-08-21 22:03:08,819 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Delegating property to driver: password=********
+2018-08-21 22:03:08,819 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Recognised proxool property: proxool.maximum-connection-count=25
+2018-08-21 22:03:08,819 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - Recognised proxool property: proxool.house-keeping-test-sql=select 1
+2018-08-21 22:03:08,846 [main] DEBUG [org.logicalcobwebs.proxool.ShutdownHook] - Registered shutdownHook
+2018-08-21 22:03:08,849 [main] DEBUG [org.logicalcobwebs.proxool.HouseKeeperController] - Registering 'openfire' house keeper
+2018-08-21 22:03:08,851 [main] DEBUG [org.logicalcobwebs.proxool.HouseKeeperController] - Starting a house keeper thread
+2018-08-21 22:03:09,382 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - Remembering default value: getTransactionIsolation() = 4
+2018-08-21 22:03:09,384 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - Remembering default value: getHoldability() = 2
+2018-08-21 22:03:09,384 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - Remembering default value: getCatalog() = openfire413
+2018-08-21 22:03:09,387 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - Remembering default value: isReadOnly() = false
+2018-08-21 22:03:09,388 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - Remembering default value: getTypeMap() = {}
+2018-08-21 22:03:09,388 [Prototyper] INFO  [org.logicalcobwebs.proxool.openfire] - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2018-08-21 22:03:09,388 [main] INFO  [org.logicalcobwebs.proxool.openfire] - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2018-08-21 22:03:09,401 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - 000000 (01/02/00) - Connection #2 created to achieve minimum of 5 = AVAILABLE
+2018-08-21 22:03:09,401 [main] DEBUG [org.logicalcobwebs.proxool.openfire] - 000000 (01/02/00) - Connection #1 created on demand = ACTIVE
+2018-08-21 22:03:09,441 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - 000001 (01/03/00) - Connection #3 created to achieve minimum of 5 = AVAILABLE
+2018-08-21 22:03:09,528 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - 000001 (01/04/00) - Connection #4 created to achieve minimum of 5 = AVAILABLE
+2018-08-21 22:03:09,600 [Prototyper] DEBUG [org.logicalcobwebs.proxool.openfire] - 000001 (01/05/00) - Connection #5 created to achieve minimum of 5 = AVAILABLE
+2018-08-21 22:03:09,637 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.io.Serializable
+2018-08-21 22:03:09,637 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.sql.Connection
+2018-08-21 22:03:09,637 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.lang.AutoCloseable
+2018-08-21 22:03:09,637 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface com.mysql.jdbc.MySQLConnection
+2018-08-21 22:03:09,637 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface com.mysql.jdbc.Connection
+2018-08-21 22:03:09,637 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface com.mysql.jdbc.ConnectionProperties
+2018-08-21 22:03:09,637 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.sql.Wrapper
+2018-08-21 22:03:10,247 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.sql.Wrapper
+2018-08-21 22:03:10,247 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.sql.DatabaseMetaData
+2018-08-21 22:03:10,340 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.sql.PreparedStatement
+2018-08-21 22:03:10,340 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.sql.Statement
+2018-08-21 22:03:10,340 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface com.mysql.jdbc.Statement
+2018-08-21 22:03:10,340 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.lang.AutoCloseable
+2018-08-21 22:03:10,340 [main] DEBUG [org.logicalcobwebs.proxool.ProxyFactory] - Implementing interface java.sql.Wrapper
+2018-08-21 22:03:11,264 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2018-08-21 22:03:11,265 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2018-08-21 22:03:11,266 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2018-08-21 22:03:11,266 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2018-08-21 22:03:11,266 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2018-08-21 22:03:11,434 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2018-08-21 22:03:11,895 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2018-08-21 22:03:11,972 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2018-08-21 22:03:12,018 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2018-08-21 22:03:13,071 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2018-08-21 22:03:13,147 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2018-08-21 22:03:13,651 [main] INFO  [org.jivesoftware.openfire.spi.ConnectionManagerImpl] - ------Connection Manager-------
+2018-08-21 22:03:14,009 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2018-08-21 22:03:14,009 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2018-08-21 22:03:14,059 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2018-08-21 22:03:14,059 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2018-08-21 22:03:14,134 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2018-08-21 22:03:14,135 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2018-08-21 22:03:14,135 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2018-08-21 22:03:14,135 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2018-08-21 22:03:14,135 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2018-08-21 22:03:14,135 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2018-08-21 22:03:14,177 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2018-08-21 22:03:14,177 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2018-08-21 22:03:14,184 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2018-08-21 22:03:14,207 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2018-08-21 22:03:14,251 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2018-08-21 22:03:14,459 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2018-08-21 22:03:14,899 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2018-08-21 22:03:15,012 [main] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2018-08-21 22:03:16,075 [main] INFO  [org.jivesoftware.openfire.pubsub.PubSubModule] - 发布-订阅域：pubsub.mydomain
+2018-08-21 22:03:16,550 [main] INFO  [org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl] - 多用户聊天域：conference.mydomain
+2018-08-21 22:03:17,152 [main] INFO  [org.jivesoftware.openfire.XMPPServer] - Openfire 4.1.3 [2018-8-21 22:03:17]
+2018-08-21 22:03:18,947 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s]] - Started.
+2018-08-21 22:03:19,055 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode]] - Started.
+2018-08-21 22:03:19,077 [pool-3-thread-1] WARN  [org.jivesoftware.openfire.spi.LegacyConnectionAcceptor] - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2018-08-21 22:03:19,160 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s]] - Started.
+2018-08-21 22:03:19,233 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.ConnectionListener[component]] - Started.
+2018-08-21 22:03:19,285 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode]] - Started.
+2018-08-21 22:03:19,340 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.ConnectionListener[connection_manager]] - Started.
+2018-08-21 22:03:19,391 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode]] - Started.
+2018-08-21 22:03:19,672 [pool-3-thread-1] INFO  [org.eclipse.jetty.util.log] - Logging initialized @14601ms
+2018-08-21 22:03:19,802 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.spi.EncryptionArtifactFactory] - Creating new SslContextFactory instance
+2018-08-21 22:03:19,969 [pool-3-thread-1] INFO  [org.eclipse.jetty.server.Server] - jetty-9.2.14.v20151106
+2018-08-21 22:03:20,015 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.http.HttpBindManager] - Installed response compression filter
+2018-08-21 22:03:20,017 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.http.HttpSessionManager] - Starting instance
+2018-08-21 22:03:20,018 [pool-3-thread-1] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - Started o.e.j.s.ServletContextHandler@1d4a0efb{/http-bind,null,AVAILABLE}
+2018-08-21 22:03:20,018 [pool-3-thread-1] INFO  [org.eclipse.jetty.server.handler.ContextHandler] - Started o.e.j.s.ServletContextHandler@691d8fc2{/crossdomain.xml,null,AVAILABLE}
+2018-08-21 22:03:20,066 [pool-3-thread-1] INFO  [org.eclipse.jetty.server.ServerConnector] - Started ServerConnector@2c53edc6{HTTP/1.1}{0.0.0.0:7070}
+2018-08-21 22:03:20,092 [pool-3-thread-1] INFO  [org.eclipse.jetty.server.ServerConnector] - Started ServerConnector@2661b097{SSL-http/1.1}{0.0.0.0:7443}
+2018-08-21 22:03:20,092 [pool-3-thread-1] INFO  [org.eclipse.jetty.server.Server] - Started @15026ms
+2018-08-21 22:03:20,092 [pool-3-thread-1] INFO  [org.jivesoftware.openfire.http.HttpBindManager] - HTTP bind service started
+2018-08-21 22:03:22,154 [Update Manager] WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2018-08-21 22:03:23,343 [Update Manager] WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2018-08-21 22:07:59,538 [NioProcessor-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - jaydon --- 创建一个新连接：/192.168.1.100:4438
+2018-08-21 22:07:59,554 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionOpened---2
+2018-08-21 22:07:59,735 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-idleTime 11---180
+2018-08-21 22:07:59,735 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-idleTime---180
+2018-08-21 22:07:59,737 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:07:59,737 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:07:59,825 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<stream:stream xmlns='jabber:client' to='192.168.1.100' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' from='admin@192.168.1.100' xml:lang='en'>
+2018-08-21 22:07:59,947 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - jaydon deliverRawText-- 发送到客户端  2 :<?xml version='1.0' encoding='UTF-8'?><stream:stream xmlns:stream="http://etherx.jabber.org/streams" xmlns="jabber:client" from="mydomain" id="8ohmlb9k0n" xml:lang="en" version="1.0">
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'ANONYMOUS' SASL mechanism.
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'PLAIN' SASL mechanism.
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'DIGEST-MD5' SASL mechanism.
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'CRAM-MD5' SASL mechanism.
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'SCRAM-SHA-1' SASL mechanism.
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'JIVE-SHAREDSECRET' SASL mechanism.
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'GSSAPI' SASL mechanism.
+2018-08-21 22:08:00,069 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.net.SASLAuthentication] - Support added for the 'EXTERNAL' SASL mechanism.
+2018-08-21 22:08:00,185 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - jaydon deliverRawText-- 发送到客户端  2 :<stream:features><starttls xmlns="urn:ietf:params:xml:ns:xmpp-tls"></starttls><mechanisms xmlns="urn:ietf:params:xml:ns:xmpp-sasl"><mechanism>EXTERNAL</mechanism><mechanism>DIGEST-MD5</mechanism><mechanism>SCRAM-SHA-1</mechanism><mechanism>JIVE-SHAREDSECRET</mechanism><mechanism>PLAIN</mechanism><mechanism>ANONYMOUS</mechanism><mechanism>CRAM-MD5</mechanism></mechanisms><compression xmlns="http://jabber.org/features/compress"><method>zlib</method></compression><register xmlns="http://jabber.org/features/iq-register"/></stream:features>
+2018-08-21 22:08:00,189 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:00,189 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:00,200 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:00,201 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:00,201 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<starttls xmlns='urn:ietf:params:xml:ns:xmpp-tls'></starttls>
+2018-08-21 22:08:00,252 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - jaydon deliverRawText-- 发送到客户端  2 :<proceed xmlns="urn:ietf:params:xml:ns:xmpp-tls"/>
+2018-08-21 22:08:00,557 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:00,557 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:00,557 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<stream:stream xmlns='jabber:client' to='192.168.1.100' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' from='admin@192.168.1.100' xml:lang='en'>
+2018-08-21 22:08:00,558 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - jaydon deliverRawText-- 发送到客户端  2 :<?xml version='1.0' encoding='UTF-8'?><stream:stream xmlns:stream="http://etherx.jabber.org/streams" xmlns="jabber:client" from="mydomain" id="8ohmlb9k0n" xml:lang="en" version="1.0"><stream:features><mechanisms xmlns="urn:ietf:params:xml:ns:xmpp-sasl"><mechanism>EXTERNAL</mechanism><mechanism>DIGEST-MD5</mechanism><mechanism>SCRAM-SHA-1</mechanism><mechanism>JIVE-SHAREDSECRET</mechanism><mechanism>PLAIN</mechanism><mechanism>ANONYMOUS</mechanism><mechanism>CRAM-MD5</mechanism></mechanisms><compression xmlns="http://jabber.org/features/compress"><method>zlib</method></compression><register xmlns="http://jabber.org/features/iq-register"/></stream:features>
+2018-08-21 22:08:00,561 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:00,597 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:00,598 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:00,598 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<auth xmlns='urn:ietf:params:xml:ns:xmpp-sasl' mechanism='SCRAM-SHA-1'>biwsbj1hZG1pbixyPXpWfWImQURWfkBVX3xPLThNXXNjRjgqeC9kU3dOKCYi</auth>
+2018-08-21 22:08:00,706 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - jaydon deliverRawText-- 发送到客户端  2 :<challenge xmlns="urn:ietf:params:xml:ns:xmpp-sasl">cj16Vn1iJkFEVn5AVV98Ty04TV1zY0Y4KngvZFN3TigmIjQyMDkxYWVkLWI2NGEtNDc0OS05NjhlLWM2YmU4MWFkMjU4MCxzPS8rZnBXR21yODJnWmE3bFVwVFlFZkNpc1cyblQzWVczLGk9NDA5Ng==</challenge>
+2018-08-21 22:08:00,730 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:00,730 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:00,731 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:00,731 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<response xmlns='urn:ietf:params:xml:ns:xmpp-sasl'>Yz1iaXdzLHI9elZ9YiZBRFZ+QFVffE8tOE1dc2NGOCp4L2RTd04oJiI0MjA5MWFlZC1iNjRhLTQ3NDktOTY4ZS1jNmJlODFhZDI1ODAscD1sd1RHaWxTZGE1TW9GOHltelR5ZnpHdWlyNVU9</response>
+2018-08-21 22:08:00,787 [socket_c2s-thread-2] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2018-08-21 22:08:00,834 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - jaydon deliverRawText-- 发送到客户端  2 :<success xmlns="urn:ietf:params:xml:ns:xmpp-sasl">dj1pcVU5RzhkaFg0WFhxRk93Y2IzMHRVT2VSOWc9</success>
+2018-08-21 22:08:00,867 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:00,867 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:00,867 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:00,867 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<stream:stream xmlns='jabber:client' to='192.168.1.100' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' from='admin@192.168.1.100' id='8ohmlb9k0n' xml:lang='en'>
+2018-08-21 22:08:00,868 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - jaydon deliverRawText-- 发送到客户端  2 :<?xml version='1.0' encoding='UTF-8'?><stream:stream xmlns:stream="http://etherx.jabber.org/streams" xmlns="jabber:client" from="mydomain" id="8ohmlb9k0n" xml:lang="en" version="1.0"><stream:features><compression xmlns="http://jabber.org/features/compress"><method>zlib</method></compression><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"/><session xmlns="urn:ietf:params:xml:ns:xmpp-session"><optional/></session><sm xmlns='urn:xmpp:sm:2'/><sm xmlns='urn:xmpp:sm:3'/></stream:features>
+2018-08-21 22:08:00,870 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:00,874 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:00,875 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:00,875 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-3' type='set'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><resource>Spark</resource></bind></iq>
+2018-08-21 22:08:00,929 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-3" to="mydomain/8ohmlb9k0n"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><jid>admin@mydomain/Spark</jid></bind></iq>
+2018-08-21 22:08:00,932 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:00,967 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:00,967 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:00,967 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-5' type='get'><query xmlns='jabber:iq:roster'></query></iq>
+2018-08-21 22:08:01,121 [socket_c2s-thread-2] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2018-08-21 22:08:01,121 [socket_c2s-thread-2] INFO  [org.jivesoftware.util.cache.CacheFactory] - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2018-08-21 22:08:01,363 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-5" to="admin@mydomain/Spark"><query xmlns="jabber:iq:roster"/></iq>
+2018-08-21 22:08:01,365 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:01,365 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:01,365 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-6' type='get'><query xmlns='http://jabber.org/protocol/disco#items'></query></iq>
+2018-08-21 22:08:01,390 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-6" from="mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#items"><item jid="proxy.mydomain" name="Socks 5 Bytestreams Proxy"/><item jid="conference.mydomain" name="公共房间"/><item jid="pubsub.mydomain" name="Publish-Subscribe service"/></query></iq>
+2018-08-21 22:08:01,391 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:01,392 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:01,965 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:01,965 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:01,965 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-23' type='get'><vCard xmlns='vcard-temp'/></iq>
+2018-08-21 22:08:02,124 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-23" to="admin@mydomain/Spark"><vCard xmlns="vcard-temp"><N><FAMILY/>
+<GIVEN>jaydon</GIVEN>
+<MIDDLE/>
+</N>
+<ORG><ORGNAME/>
+<ORGUNIT/>
+</ORG>
+<FN>jaydon</FN>
+<URL/>
+<TITLE/>
+<NICKNAME/>
+<EMAIL><HOME/><INTERNET/><PREF/><USERID/>
+</EMAIL>
+<TEL><PAGER/><WORK/><NUMBER/>
+</TEL>
+<TEL><CELL/><WORK/><NUMBER/>
+</TEL>
+<TEL><VOICE/><WORK/><NUMBER/>
+</TEL>
+<TEL><FAX/><WORK/><NUMBER/>
+</TEL>
+<TEL><PAGER/><HOME/><NUMBER/>
+</TEL>
+<TEL><CELL/><HOME/><NUMBER/>
+</TEL>
+<TEL><VOICE/><HOME/><NUMBER/>
+</TEL>
+<TEL><FAX/><HOME/><NUMBER/>
+</TEL>
+<ADR><WORK/><PCODE/>
+<REGION/>
+<STREET/>
+<CTRY/>
+<LOCALITY/>
+</ADR>
+<ADR><HOME/><PCODE/>
+<REGION/>
+<STREET/>
+<CTRY/>
+<LOCALITY/>
+</ADR>
+</vCard></iq>
+2018-08-21 22:08:02,128 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:02,128 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:02,128 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-24' type='get'><sharedgroup xmlns='http://www.jivesoftware.org/protocol/sharedgroup'></sharedgroup></iq>
+2018-08-21 22:08:02,130 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-24" to="admin@mydomain/Spark"><sharedgroup xmlns="http://www.jivesoftware.org/protocol/sharedgroup"/></iq>
+2018-08-21 22:08:02,132 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:02,134 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:05,492 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:05,493 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:05,493 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-10'><status>在线</status><priority>1</priority><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='njE08O0d+gOu+3R5iJiJSheFRMw='/></presence>
+2018-08-21 22:08:05,516 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="427-2" to="admin@mydomain/Spark" from="mydomain"><query xmlns="http://jabber.org/protocol/disco#info"/></iq>
+2018-08-21 22:08:05,667 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <message from="mydomain" to="admin@mydomain"><body>服务器或插件更新被找到: Openfire 4.2.3</body><delay xmlns="urn:xmpp:delay" from="mydomain" stamp="2018-08-21T14:03:22.534Z"/></message>
+2018-08-21 22:08:05,777 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:05,777 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:05,778 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='proxy.mydomain' id='ZGOOo-31' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:05,778 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-31" from="proxy.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="proxy" name="SOCKS5 Bytestreams Service" type="bytestreams"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+2018-08-21 22:08:05,780 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:05,781 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:05,781 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:05,781 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='427-2' type='result'><query xmlns='http://jabber.org/protocol/disco#info'><identity category='client' name='Smack' type='pc'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/caps'/><feature var='vcard-temp'/><feature var='http://jabber.org/protocol/bytestreams'/><feature var='http://jabber.org/protocol/ibb'/><feature var='http://jabber.org/protocol/si'/><feature var='http://jabber.org/protocol/xhtml-im'/><feature var='jabber:x:data'/><feature var='http://jabber.org/protocol/chatstates'/><feature var='jabber:iq:version'/><feature var='urn:xmpp:time'/><feature var='jabber:iq:privacy'/><feature var='http://jabber.org/protocol/si/profile/file-transfer'/><feature var='urn:xmpp:ping'/><feature var='jabber:iq:last'/><feature var='http://jabber.org/protocol/commands'/><feature var='http://jabber.org/protocol/muc'/><feature var='http://jabber.org/protocol/xdata-validate'/><feature var='http://jabber.org/protocol/xdata-layout'/><feature var='urn:xmpp:receipts'/><feature var='http://jabber.org/protocol/disco#info'/></query></iq>
+2018-08-21 22:08:05,784 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:05,784 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:05,784 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-34' type='get'><query xmlns='jabber:iq:private'><storage xmlns='storage:bookmarks'/></query></iq>
+2018-08-21 22:08:05,810 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-34" to="admin@mydomain/Spark"><query xmlns="jabber:iq:private"><storage xmlns="storage:bookmarks"/></query></iq>
+2018-08-21 22:08:05,811 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:05,812 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:05,812 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:05,812 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:05,812 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='conference.mydomain' id='ZGOOo-37' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:05,813 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-37" from="conference.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="conference" name="公共房间" type="text"/><identity category="directory" name="Public Chatroom Search" type="chatroom"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="jabber:iq:search"/><feature var="http://jabber.org/protocol/rsm"/></query></iq>
+2018-08-21 22:08:05,816 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:05,819 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:05,825 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:05,825 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:05,825 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='pubsub.mydomain' id='ZGOOo-40' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:05,827 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-40" from="pubsub.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="pubsub" name="Publish-Subscribe service" type="service"/><feature var="http://jabber.org/protocol/pubsub"/><feature var="http://jabber.org/protocol/pubsub#access-open"/><feature var="http://jabber.org/protocol/pubsub#collections"/><feature var="http://jabber.org/protocol/pubsub#config-node"/><feature var="http://jabber.org/protocol/pubsub#create-and-configure"/><feature var="http://jabber.org/protocol/pubsub#create-nodes"/><feature var="http://jabber.org/protocol/pubsub#delete-nodes"/><feature var="http://jabber.org/protocol/pubsub#get-pending"/><feature var="http://jabber.org/protocol/pubsub#instant-nodes"/><feature var="http://jabber.org/protocol/pubsub#item-ids"/><feature var="http://jabber.org/protocol/pubsub#meta-data"/><feature var="http://jabber.org/protocol/pubsub#modify-affiliations"/><feature var="http://jabber.org/protocol/pubsub#manage-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#multi-subscribe"/><feature var="http://jabber.org/protocol/pubsub#outcast-affiliation"/><feature var="http://jabber.org/protocol/pubsub#persistent-items"/><feature var="http://jabber.org/protocol/pubsub#presence-notifications"/><feature var="http://jabber.org/protocol/pubsub#publish"/><feature var="http://jabber.org/protocol/pubsub#publisher-affiliation"/><feature var="http://jabber.org/protocol/pubsub#purge-nodes"/><feature var="http://jabber.org/protocol/pubsub#retract-items"/><feature var="http://jabber.org/protocol/pubsub#retrieve-affiliations"/><feature var="http://jabber.org/protocol/pubsub#retrieve-default"/><feature var="http://jabber.org/protocol/pubsub#retrieve-items"/><feature var="http://jabber.org/protocol/pubsub#retrieve-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#subscribe"/><feature var="http://jabber.org/protocol/pubsub#subscription-options"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+2018-08-21 22:08:05,837 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,066 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,066 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,066 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-44' type='get'><vCard xmlns='vcard-temp'/></iq>
+2018-08-21 22:08:06,070 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="error" id="ZGOOo-44" from="mydomain" to="admin@mydomain/Spark"><vCard xmlns="vcard-temp"/><error code="404" type="cancel"><item-not-found xmlns="urn:ietf:params:xml:ns:xmpp-stanzas"/></error></iq>
+2018-08-21 22:08:06,075 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,229 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,229 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,229 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<message to='mydomain' id='ZGOOo-48'><x xmlns="jabber:x:event"><delivered/></x></message>
+2018-08-21 22:08:06,230 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <message to="admin@mydomain" id="ZGOOo-48" from="admin@mydomain/Spark"><x xmlns="jabber:x:event"><delivered/></x></message>
+2018-08-21 22:08:06,693 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,693 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,693 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<message to='mydomain' id='ZGOOo-49'><x xmlns="jabber:x:event"><displayed/></x></message>
+2018-08-21 22:08:06,693 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <message to="admin@mydomain" id="ZGOOo-49" from="admin@mydomain/Spark"><x xmlns="jabber:x:event"><displayed/></x></message>
+2018-08-21 22:08:06,852 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,852 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,852 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,852 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-51' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:06,854 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-51" from="mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered"/><identity category="pubsub" type="pep"/><feature var="http://jabber.org/protocol/pubsub#manage-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#modify-affiliations"/><feature var="http://jabber.org/protocol/pubsub#retrieve-default"/><feature var="http://jabber.org/protocol/pubsub#collections"/><feature var="jabber:iq:private"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="vcard-temp"/><feature var="http://jabber.org/protocol/pubsub#publish"/><feature var="http://jabber.org/protocol/pubsub#subscribe"/><feature var="http://jabber.org/protocol/pubsub#auto-create"/><feature var="http://jabber.org/protocol/pubsub#retract-items"/><feature var="http://jabber.org/protocol/offline"/><feature var="http://jabber.org/protocol/pubsub#meta-data"/><feature var="jabber:iq:register"/><feature var="http://jabber.org/protocol/pubsub#access-open"/><feature var="http://jabber.org/protocol/pubsub#retrieve-subscriptions"/><feature var="urn:xmpp:carbons:2"/><feature var="jabber:iq:roster"/><feature var="http://jabber.org/protocol/pubsub#config-node"/><feature var="http://jabber.org/protocol/address"/><feature var="http://jabber.org/protocol/pubsub#publisher-affiliation"/><feature var="http://jabber.org/protocol/pubsub#item-ids"/><feature var="http://jabber.org/protocol/pubsub#instant-nodes"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/pubsub#multi-subscribe"/><feature var="http://jabber.org/protocol/pubsub#outcast-affiliation"/><feature var="http://jabber.org/protocol/pubsub#get-pending"/><feature var="jabber:iq:privacy"/><feature var="urn:xmpp:time"/><feature var="http://jabber.org/protocol/pubsub#subscription-options"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/pubsub#create-and-configure"/><feature var="urn:xmpp:ping"/><feature var="msgoffline"/><feature var="http://jabber.org/protocol/pubsub#retrieve-items"/><feature var="http://jabber.org/protocol/pubsub#create-nodes"/><feature var="http://jabber.org/protocol/pubsub#persistent-items"/><feature var="jabber:iq:version"/><feature var="http://jabber.org/protocol/pubsub#presence-notifications"/><feature var="http://jabber.org/protocol/pubsub"/><feature var="http://jabber.org/protocol/pubsub#retrieve-affiliations"/><feature var="http://jabber.org/protocol/pubsub#delete-nodes"/><feature var="http://jabber.org/protocol/pubsub#purge-nodes"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/rsm"/></query></iq>
+2018-08-21 22:08:06,857 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,858 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,862 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,862 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,862 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-55' type='get'><query xmlns='http://jabber.org/protocol/disco#items'></query></iq>
+2018-08-21 22:08:06,863 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-55" from="mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#items"><item jid="proxy.mydomain" name="Socks 5 Bytestreams Proxy"/><item jid="conference.mydomain" name="公共房间"/><item jid="pubsub.mydomain" name="Publish-Subscribe service"/></query></iq>
+2018-08-21 22:08:06,866 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,867 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,868 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,868 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='proxy.mydomain' id='ZGOOo-57' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:06,868 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-57" from="proxy.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="proxy" name="SOCKS5 Bytestreams Service" type="bytestreams"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+2018-08-21 22:08:06,871 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,872 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,872 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,872 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='conference.mydomain' id='ZGOOo-59' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:06,873 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-59" from="conference.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="conference" name="公共房间" type="text"/><identity category="directory" name="Public Chatroom Search" type="chatroom"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="jabber:iq:search"/><feature var="http://jabber.org/protocol/rsm"/></query></iq>
+2018-08-21 22:08:06,875 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:06,877 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:06,878 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:06,878 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='pubsub.mydomain' id='ZGOOo-61' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:06,879 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-61" from="pubsub.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="pubsub" name="Publish-Subscribe service" type="service"/><feature var="http://jabber.org/protocol/pubsub"/><feature var="http://jabber.org/protocol/pubsub#access-open"/><feature var="http://jabber.org/protocol/pubsub#collections"/><feature var="http://jabber.org/protocol/pubsub#config-node"/><feature var="http://jabber.org/protocol/pubsub#create-and-configure"/><feature var="http://jabber.org/protocol/pubsub#create-nodes"/><feature var="http://jabber.org/protocol/pubsub#delete-nodes"/><feature var="http://jabber.org/protocol/pubsub#get-pending"/><feature var="http://jabber.org/protocol/pubsub#instant-nodes"/><feature var="http://jabber.org/protocol/pubsub#item-ids"/><feature var="http://jabber.org/protocol/pubsub#meta-data"/><feature var="http://jabber.org/protocol/pubsub#modify-affiliations"/><feature var="http://jabber.org/protocol/pubsub#manage-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#multi-subscribe"/><feature var="http://jabber.org/protocol/pubsub#outcast-affiliation"/><feature var="http://jabber.org/protocol/pubsub#persistent-items"/><feature var="http://jabber.org/protocol/pubsub#presence-notifications"/><feature var="http://jabber.org/protocol/pubsub#publish"/><feature var="http://jabber.org/protocol/pubsub#publisher-affiliation"/><feature var="http://jabber.org/protocol/pubsub#purge-nodes"/><feature var="http://jabber.org/protocol/pubsub#retract-items"/><feature var="http://jabber.org/protocol/pubsub#retrieve-affiliations"/><feature var="http://jabber.org/protocol/pubsub#retrieve-default"/><feature var="http://jabber.org/protocol/pubsub#retrieve-items"/><feature var="http://jabber.org/protocol/pubsub#retrieve-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#subscribe"/><feature var="http://jabber.org/protocol/pubsub#subscription-options"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+2018-08-21 22:08:06,882 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,522 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,522 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,522 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-63' type='get'><query xmlns='http://jabber.org/protocol/disco#items'></query></iq>
+2018-08-21 22:08:07,523 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-63" from="mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#items"><item jid="proxy.mydomain" name="Socks 5 Bytestreams Proxy"/><item jid="conference.mydomain" name="公共房间"/><item jid="pubsub.mydomain" name="Publish-Subscribe service"/></query></iq>
+2018-08-21 22:08:07,527 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,740 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,741 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,741 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-66'><status>在线</status><priority>1</priority><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='viD0To3eoSjqrBO3M8uZuX3TWkA='/></presence>
+2018-08-21 22:08:07,741 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="207-3" to="admin@mydomain/Spark" from="mydomain"><query xmlns="http://jabber.org/protocol/disco#info"/></iq>
+2018-08-21 22:08:07,748 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-66" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>在线</status><priority>1</priority><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="viD0To3eoSjqrBO3M8uZuX3TWkA="/></presence>
+2018-08-21 22:08:07,759 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,760 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,760 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,760 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-69'><status>在线</status><priority>1</priority><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='TJuVIXqTCVfJSthaPu4MtTbaf9A='/></presence>
+2018-08-21 22:08:07,761 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="727-4" to="admin@mydomain/Spark" from="mydomain"><query xmlns="http://jabber.org/protocol/disco#info"/></iq>
+2018-08-21 22:08:07,765 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-69" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>在线</status><priority>1</priority><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="TJuVIXqTCVfJSthaPu4MtTbaf9A="/></presence>
+2018-08-21 22:08:07,772 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,772 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,772 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,772 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='207-3' type='result'><query xmlns='http://jabber.org/protocol/disco#info'><identity category='client' name='Smack' type='pc'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/caps'/><feature var='vcard-temp'/><feature var='urn:xmpp:tmp:jingle'/><feature var='http://jabber.org/protocol/bytestreams'/><feature var='http://jabber.org/protocol/ibb'/><feature var='http://jabber.org/protocol/si'/><feature var='http://jabber.org/protocol/xhtml-im'/><feature var='jabber:x:data'/><feature var='http://jabber.org/protocol/chatstates'/><feature var='jabber:iq:version'/><feature var='urn:xmpp:time'/><feature var='jabber:iq:privacy'/><feature var='http://jabber.org/protocol/si/profile/file-transfer'/><feature var='urn:xmpp:ping'/><feature var='jabber:iq:last'/><feature var='http://jabber.org/protocol/commands'/><feature var='http://jabber.org/protocol/muc'/><feature var='http://jabber.org/protocol/xdata-validate'/><feature var='http://www.xmpp.org/extensions/xep-0166.html#ns'/><feature var='http://jabber.org/protocol/xdata-layout'/><feature var='urn:xmpp:receipts'/><feature var='http://jabber.org/protocol/disco#info'/></query></iq>
+2018-08-21 22:08:07,774 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,774 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,774 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,774 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='727-4' type='result'><query xmlns='http://jabber.org/protocol/disco#info'><identity category='client' name='Smack' type='pc'/><feature var='http://jabber.org/protocol/disco#items'/><feature var='http://jabber.org/protocol/caps'/><feature var='vcard-temp'/><feature var='urn:xmpp:tmp:jingle'/><feature var='http://jabber.org/protocol/bytestreams'/><feature var='http://jabber.org/protocol/ibb'/><feature var='http://jabber.org/protocol/si'/><feature var='http://jabber.org/protocol/xhtml-im'/><feature var='jabber:x:data'/><feature var='http://jabber.org/protocol/chatstates'/><feature var='jabber:iq:version'/><feature var='urn:xmpp:time'/><feature var='jabber:iq:privacy'/><feature var='http://jabber.org/protocol/si/profile/file-transfer'/><feature var='urn:xmpp:ping'/><feature var='jabber:iq:last'/><feature var='http://jabber.org/protocol/commands'/><feature var='http://jabber.org/protocol/muc'/><feature var='http://jabber.org/protocol/xdata-validate'/><feature var='http://www.xmpp.org/extensions/xep-0166.html#ns'/><feature var='http://jabber.org/protocol/xdata-layout'/><feature var='urn:xmpp:receipts'/><feature var='http://jabber.org/protocol/disco#info'/></query></iq>
+2018-08-21 22:08:07,775 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,893 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,894 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,894 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-75' type='get'><query xmlns='http://jabber.org/protocol/disco#items'></query></iq>
+2018-08-21 22:08:07,895 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-75" from="mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#items"><item jid="proxy.mydomain" name="Socks 5 Bytestreams Proxy"/><item jid="conference.mydomain" name="公共房间"/><item jid="pubsub.mydomain" name="Publish-Subscribe service"/></query></iq>
+2018-08-21 22:08:07,897 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,900 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,900 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,900 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='proxy.mydomain' id='ZGOOo-77' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:07,901 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-77" from="proxy.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="proxy" name="SOCKS5 Bytestreams Service" type="bytestreams"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+2018-08-21 22:08:07,903 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,906 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,906 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,906 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='conference.mydomain' id='ZGOOo-79' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:07,907 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-79" from="conference.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="conference" name="公共房间" type="text"/><identity category="directory" name="Public Chatroom Search" type="chatroom"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="jabber:iq:search"/><feature var="http://jabber.org/protocol/rsm"/></query></iq>
+2018-08-21 22:08:07,921 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:07,922 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:07,923 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:07,923 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='pubsub.mydomain' id='ZGOOo-81' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:07,924 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-81" from="pubsub.mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="pubsub" name="Publish-Subscribe service" type="service"/><feature var="http://jabber.org/protocol/pubsub"/><feature var="http://jabber.org/protocol/pubsub#access-open"/><feature var="http://jabber.org/protocol/pubsub#collections"/><feature var="http://jabber.org/protocol/pubsub#config-node"/><feature var="http://jabber.org/protocol/pubsub#create-and-configure"/><feature var="http://jabber.org/protocol/pubsub#create-nodes"/><feature var="http://jabber.org/protocol/pubsub#delete-nodes"/><feature var="http://jabber.org/protocol/pubsub#get-pending"/><feature var="http://jabber.org/protocol/pubsub#instant-nodes"/><feature var="http://jabber.org/protocol/pubsub#item-ids"/><feature var="http://jabber.org/protocol/pubsub#meta-data"/><feature var="http://jabber.org/protocol/pubsub#modify-affiliations"/><feature var="http://jabber.org/protocol/pubsub#manage-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#multi-subscribe"/><feature var="http://jabber.org/protocol/pubsub#outcast-affiliation"/><feature var="http://jabber.org/protocol/pubsub#persistent-items"/><feature var="http://jabber.org/protocol/pubsub#presence-notifications"/><feature var="http://jabber.org/protocol/pubsub#publish"/><feature var="http://jabber.org/protocol/pubsub#publisher-affiliation"/><feature var="http://jabber.org/protocol/pubsub#purge-nodes"/><feature var="http://jabber.org/protocol/pubsub#retract-items"/><feature var="http://jabber.org/protocol/pubsub#retrieve-affiliations"/><feature var="http://jabber.org/protocol/pubsub#retrieve-default"/><feature var="http://jabber.org/protocol/pubsub#retrieve-items"/><feature var="http://jabber.org/protocol/pubsub#retrieve-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#subscribe"/><feature var="http://jabber.org/protocol/pubsub#subscription-options"/><feature var="http://jabber.org/protocol/disco#info"/></query></iq>
+2018-08-21 22:08:07,927 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:08,890 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:08,891 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:08,891 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-83' type='get'><query xmlns='http://jabber.org/protocol/disco#items'></query></iq>
+2018-08-21 22:08:08,891 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-83" from="mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#items"><item jid="proxy.mydomain" name="Socks 5 Bytestreams Proxy"/><item jid="conference.mydomain" name="公共房间"/><item jid="pubsub.mydomain" name="Publish-Subscribe service"/></query></iq>
+2018-08-21 22:08:08,894 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:09,308 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:09,308 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:09,308 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='ZGOOo-85' type='get'><query xmlns='http://jabber.org/protocol/disco#info'></query></iq>
+2018-08-21 22:08:09,311 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-85" from="mydomain" to="admin@mydomain/Spark"><query xmlns="http://jabber.org/protocol/disco#info"><identity category="account" type="registered"/><identity category="pubsub" type="pep"/><feature var="http://jabber.org/protocol/pubsub#manage-subscriptions"/><feature var="http://jabber.org/protocol/pubsub#modify-affiliations"/><feature var="http://jabber.org/protocol/pubsub#retrieve-default"/><feature var="http://jabber.org/protocol/pubsub#collections"/><feature var="jabber:iq:private"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="vcard-temp"/><feature var="http://jabber.org/protocol/pubsub#publish"/><feature var="http://jabber.org/protocol/pubsub#subscribe"/><feature var="http://jabber.org/protocol/pubsub#auto-create"/><feature var="http://jabber.org/protocol/pubsub#retract-items"/><feature var="http://jabber.org/protocol/offline"/><feature var="http://jabber.org/protocol/pubsub#meta-data"/><feature var="jabber:iq:register"/><feature var="http://jabber.org/protocol/pubsub#access-open"/><feature var="http://jabber.org/protocol/pubsub#retrieve-subscriptions"/><feature var="urn:xmpp:carbons:2"/><feature var="jabber:iq:roster"/><feature var="http://jabber.org/protocol/pubsub#config-node"/><feature var="http://jabber.org/protocol/address"/><feature var="http://jabber.org/protocol/pubsub#publisher-affiliation"/><feature var="http://jabber.org/protocol/pubsub#item-ids"/><feature var="http://jabber.org/protocol/pubsub#instant-nodes"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/pubsub#multi-subscribe"/><feature var="http://jabber.org/protocol/pubsub#outcast-affiliation"/><feature var="http://jabber.org/protocol/pubsub#get-pending"/><feature var="jabber:iq:privacy"/><feature var="urn:xmpp:time"/><feature var="http://jabber.org/protocol/pubsub#subscription-options"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/pubsub#create-and-configure"/><feature var="urn:xmpp:ping"/><feature var="msgoffline"/><feature var="http://jabber.org/protocol/pubsub#retrieve-items"/><feature var="http://jabber.org/protocol/pubsub#create-nodes"/><feature var="http://jabber.org/protocol/pubsub#persistent-items"/><feature var="jabber:iq:version"/><feature var="http://jabber.org/protocol/pubsub#presence-notifications"/><feature var="http://jabber.org/protocol/pubsub"/><feature var="http://jabber.org/protocol/pubsub#retrieve-affiliations"/><feature var="http://jabber.org/protocol/pubsub#delete-nodes"/><feature var="http://jabber.org/protocol/pubsub#purge-nodes"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/rsm"/></query></iq>
+2018-08-21 22:08:09,317 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:09,331 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:09,332 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:09,332 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-87' type='get'><query xmlns='jabber:iq:privacy'></query></iq>
+2018-08-21 22:08:09,337 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-87" to="admin@mydomain/Spark"><query xmlns="jabber:iq:privacy"><list name="invisible"/></query></iq>
+2018-08-21 22:08:09,342 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:09,345 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:09,345 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:09,345 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-89' type='get'><query xmlns='jabber:iq:privacy'><list name="invisible"/></query></iq>
+2018-08-21 22:08:09,391 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-89" to="admin@mydomain/Spark"><query xmlns="jabber:iq:privacy"><list name="invisible"><item action="deny" order="1"><presence-out/></item></list></query></iq>
+2018-08-21 22:08:09,396 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:10,497 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:10,497 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:10,497 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-91' type='get'><query xmlns='jabber:iq:private'><gateway-settings xmlns='http://www.jivesoftware.org/spark'/></query></iq>
+2018-08-21 22:08:10,501 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-91" to="admin@mydomain/Spark"><query xmlns="jabber:iq:private"><gateway-settings xmlns="http://www.jivesoftware.org/spark"/></query></iq>
+2018-08-21 22:08:10,504 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:15,241 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:15,241 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:15,241 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<message to='mydomain' id='ZGOOo-93' type='chat'><thread>GLEKwX</thread><gone xmlns='http://jabber.org/protocol/chatstates'/></message>
+2018-08-21 22:08:15,242 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <message to="admin@mydomain" id="ZGOOo-93" type="chat" from="admin@mydomain/Spark"><thread>GLEKwX</thread><gone xmlns="http://jabber.org/protocol/chatstates"/></message>
+2018-08-21 22:08:15,262 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:08:18,393 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:08:18,393 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:08:18,393 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq id='ZGOOo-95' type='get'><query xmlns='jabber:iq:private'><scratchpad xmlns='scratchpad:tasks'/></query></iq>
+2018-08-21 22:08:18,399 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="result" id="ZGOOo-95" to="admin@mydomain/Spark"><query xmlns="jabber:iq:private"><scratchpad xmlns="scratchpad:tasks"><tasks showAll="true"/></scratchpad></query></iq>
+2018-08-21 22:08:18,401 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:11:18,411 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:11:18,411 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:11:18,413 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="143-5" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:11:18,416 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:11:18,419 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:11:18,419 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:11:18,419 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='143-5' type='result'></iq>
+2018-08-21 22:12:00,321 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:12:00,321 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:12:00,322 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-99'><status>离开</status><priority>0</priority><show>away</show><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='TJuVIXqTCVfJSthaPu4MtTbaf9A='/></presence>
+2018-08-21 22:12:00,328 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-99" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>离开</status><priority>0</priority><show>away</show><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="TJuVIXqTCVfJSthaPu4MtTbaf9A="/></presence>
+2018-08-21 22:12:00,338 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:15:00,341 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:15:00,341 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:15:00,343 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="153-6" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:15:00,345 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:15:00,347 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:15:00,347 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:15:00,347 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='153-6' type='result'></iq>
+2018-08-21 22:15:16,333 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:15:16,333 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:15:16,333 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-10'><status>在线</status><priority>1</priority><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='TJuVIXqTCVfJSthaPu4MtTbaf9A='/></presence>
+2018-08-21 22:15:16,337 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-10" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>在线</status><priority>1</priority><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="TJuVIXqTCVfJSthaPu4MtTbaf9A="/></presence>
+2018-08-21 22:15:16,344 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:18:16,364 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:18:16,364 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:18:16,366 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="770-7" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:18:16,368 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:18:16,370 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:18:16,370 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:18:16,370 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='770-7' type='result'></iq>
+2018-08-21 22:19:26,360 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:19:26,360 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:19:26,360 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-106'><status>离开</status><priority>0</priority><show>away</show><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='TJuVIXqTCVfJSthaPu4MtTbaf9A='/></presence>
+2018-08-21 22:19:26,365 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-106" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>离开</status><priority>0</priority><show>away</show><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="TJuVIXqTCVfJSthaPu4MtTbaf9A="/></presence>
+2018-08-21 22:19:26,370 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:22:26,379 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:22:26,379 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:22:26,381 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="870-8" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:22:26,384 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:22:26,386 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:22:26,386 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:22:26,386 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='870-8' type='result'></iq>
+2018-08-21 22:25:26,397 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:25:26,397 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:25:26,399 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="187-9" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:25:26,402 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:25:26,403 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:25:26,404 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:25:26,404 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='187-9' type='result'></iq>
+2018-08-21 22:28:26,413 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:28:26,413 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:28:26,415 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="92-10" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:28:26,418 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:28:26,420 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:28:26,420 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:28:26,420 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='92-10' type='result'></iq>
+2018-08-21 22:31:26,431 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:31:26,431 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:31:26,433 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="914-11" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:31:26,435 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:31:26,437 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:31:26,437 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:31:26,437 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='914-11' type='result'></iq>
+2018-08-21 22:34:26,447 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:34:26,447 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:34:26,449 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="274-12" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:34:26,452 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:34:26,454 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:34:26,454 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:34:26,454 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='274-12' type='result'></iq>
+2018-08-21 22:37:26,476 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:37:26,476 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:37:26,478 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="870-13" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:37:26,480 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:37:26,482 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:37:26,482 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:37:26,482 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='870-13' type='result'></iq>
+2018-08-21 22:40:26,492 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:40:26,492 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:40:26,494 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="981-14" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:40:26,498 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:40:26,499 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:40:26,499 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:40:26,499 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='981-14' type='result'></iq>
+2018-08-21 22:43:26,510 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:43:26,510 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:43:26,512 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="741-15" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:43:26,515 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:43:26,517 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:43:26,517 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:43:26,517 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='741-15' type='result'></iq>
+2018-08-21 22:46:26,527 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:46:26,527 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:46:26,529 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="732-16" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:46:26,532 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:46:26,534 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:46:26,534 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:46:26,534 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='732-16' type='result'></iq>
+2018-08-21 22:49:26,544 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:49:26,544 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:49:26,546 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="833-17" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:49:26,549 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:49:26,551 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:49:26,551 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:49:26,551 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='833-17' type='result'></iq>
+2018-08-21 22:52:26,562 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:52:26,562 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:52:26,564 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="403-18" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:52:26,567 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:52:26,569 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:52:26,569 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:52:26,569 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='403-18' type='result'></iq>
+2018-08-21 22:55:26,579 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:55:26,579 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:55:26,581 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="280-19" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:55:26,583 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:55:26,586 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:55:26,586 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:55:26,586 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='280-19' type='result'></iq>
+2018-08-21 22:58:26,595 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 22:58:26,595 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 22:58:26,597 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="238-20" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 22:58:26,600 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 22:58:26,603 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 22:58:26,603 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 22:58:26,603 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='238-20' type='result'></iq>
+2018-08-21 23:01:26,613 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:01:26,613 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:01:26,615 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="768-21" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:01:26,618 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:01:26,620 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:01:26,620 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:01:26,620 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='768-21' type='result'></iq>
+2018-08-21 23:04:26,630 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:04:26,630 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:04:26,632 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="51-22" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:04:26,635 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:04:26,636 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:04:26,636 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:04:26,636 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='51-22' type='result'></iq>
+2018-08-21 23:07:26,646 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:07:26,646 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:07:26,648 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="589-23" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:07:26,651 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:07:26,654 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:07:26,654 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:07:26,654 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='589-23' type='result'></iq>
+2018-08-21 23:10:26,663 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:10:26,663 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:10:26,665 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="522-24" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:10:26,667 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:10:26,669 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:10:26,670 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:10:26,670 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='522-24' type='result'></iq>
+2018-08-21 23:13:26,680 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:13:26,680 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:13:26,681 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="697-25" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:13:26,684 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:13:26,687 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:13:26,687 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:13:26,687 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='697-25' type='result'></iq>
+2018-08-21 23:16:26,696 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:16:26,696 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:16:26,698 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="118-26" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:16:26,701 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:16:26,703 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:16:26,703 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:16:26,703 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='118-26' type='result'></iq>
+2018-08-21 23:18:48,765 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:18:48,765 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:18:48,765 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-10'><status>在线</status><priority>1</priority><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='TJuVIXqTCVfJSthaPu4MtTbaf9A='/></presence>
+2018-08-21 23:18:48,786 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-10" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>在线</status><priority>1</priority><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="TJuVIXqTCVfJSthaPu4MtTbaf9A="/></presence>
+2018-08-21 23:18:48,800 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:21:48,805 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:21:48,805 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:21:48,807 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="944-27" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:21:48,809 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:21:48,811 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:21:48,811 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:21:48,811 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='944-27' type='result'></iq>
+2018-08-21 23:24:48,823 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:24:48,823 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:24:48,825 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="572-28" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:24:48,827 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:24:48,829 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:24:48,829 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:24:48,829 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='572-28' type='result'></iq>
+2018-08-21 23:27:40,605 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:27:40,605 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:27:40,605 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-151'><status>离开</status><priority>0</priority><show>away</show><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='TJuVIXqTCVfJSthaPu4MtTbaf9A='/></presence>
+2018-08-21 23:27:40,615 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-151" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>离开</status><priority>0</priority><show>away</show><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="TJuVIXqTCVfJSthaPu4MtTbaf9A="/></presence>
+2018-08-21 23:27:40,625 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:30:40,628 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:30:40,628 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:30:40,630 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="178-29" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:30:40,632 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:30:40,634 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:30:40,634 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:30:40,634 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='178-29' type='result'></iq>
+2018-08-21 23:33:40,645 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:33:40,645 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:33:40,646 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="543-30" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:33:40,649 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:33:40,651 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:33:40,651 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:33:40,651 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='543-30' type='result'></iq>
+2018-08-21 23:36:40,661 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:36:40,661 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:36:40,663 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="175-31" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:36:40,666 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:36:40,668 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:36:40,668 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:36:40,669 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='175-31' type='result'></iq>
+2018-08-21 23:39:40,679 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:39:40,679 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:39:40,681 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="524-32" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:39:40,684 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:39:40,686 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:39:40,687 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:39:40,687 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='524-32' type='result'></iq>
+2018-08-21 23:42:40,697 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:42:40,697 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:42:40,699 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="247-33" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:42:40,701 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:42:40,703 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:42:40,703 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:42:40,703 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='247-33' type='result'></iq>
+2018-08-21 23:45:40,715 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:45:40,715 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:45:40,717 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="127-34" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:45:40,720 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:45:40,722 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:45:40,722 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:45:40,722 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='127-34' type='result'></iq>
+2018-08-21 23:48:40,733 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:48:40,733 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:48:40,734 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="863-35" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:48:40,737 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:48:40,738 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:48:40,739 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:48:40,739 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='863-35' type='result'></iq>
+2018-08-21 23:49:30,682 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:49:30,682 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:49:30,682 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<presence id='ZGOOo-10'><status>在线</status><priority>1</priority><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.igniterealtime.org/projects/smack' ver='TJuVIXqTCVfJSthaPu4MtTbaf9A='/></presence>
+2018-08-21 23:49:30,724 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <presence id="ZGOOo-10" from="admin@mydomain/Spark" to="admin@mydomain/Spark"><status>在线</status><priority>1</priority><c xmlns="http://jabber.org/protocol/caps" hash="sha-1" node="http://www.igniterealtime.org/projects/smack" ver="TJuVIXqTCVfJSthaPu4MtTbaf9A="/></presence>
+2018-08-21 23:49:30,734 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:52:30,737 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - -jaydon(getIdleCount)=----1
+2018-08-21 23:52:30,737 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ClientConnectionHandler] - --jaydon--sessionIdle---ping
+2018-08-21 23:52:30,739 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.NIOConnection] - 发送到客户端:2  <iq type="get" id="964-36" from="mydomain" to="admin@mydomain/Spark"><ping xmlns="urn:xmpp:ping"/></iq>
+2018-08-21 23:52:30,742 [socket_c2s-thread-3] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon--messageSent--Iosession--2
+2018-08-21 23:52:30,744 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---jaydon-sessionsSize:---1
+2018-08-21 23:52:30,744 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - ---current IoSession:---2
+2018-08-21 23:52:30,744 [socket_c2s-thread-2] INFO  [org.jivesoftware.openfire.nio.ConnectionHandler] - 服务器-收到客户端  2 的xml:<iq to='mydomain' id='964-36' type='result'></iq>
